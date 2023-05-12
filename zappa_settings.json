@@ -1,0 +1,18 @@
+{
+    "dev": {
+        "aws_region": "us-east-1",
+        "django_settings": "calculator.settings",
+        "profile_name": "default",
+        "project_name": "calculator",
+        "runtime": "python3.9",
+        "s3_bucket": "calculator-backend-bucket",
+        "timeout_seconds": 900,
+        "manage_roles": false,
+        "role_name": "ZappaDjangoRole",
+        "role_arn": "arn:aws:iam::436825547174:role/ZappaDjangoRole",
+        "vpc_config" : {
+            "SubnetIds": ["subnet-09fb485af9c2852d5", "subnet-0ce97172d12945e7f", "subnet-094829aac736b8fc9", "subnet-0cdb1906cb73f7c19", "subnet-0b066cee7eced81c1", "subnet-00777dd2431ad0d6c"],
+            "SecurityGroupIds": [ "sg-08626c51c49c9e97c" ]
+        }
+    }
+}
